@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+".\objects\uart_cb.o"
+".\objects\glcd_fonts.o"
+".\objects\glcd_mcb1700.o"
+".\objects\adc_mcb1700.o"
+".\objects\dac_mcb1700.o"
+".\objects\led_mcb1700.o"
+".\objects\buttons_mcb1700.o"
+"C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib"
+".\objects\rtx_conf_cm.o"
+".\objects\emac_lpc17xx.o"
+".\objects\ssp_lpc17xx.o"
+".\objects\uart_lpc17xx.o"
+".\objects\phy_dp83848c.o"
+".\objects\gpdma_lpc17xx.o"
+".\objects\gpio_lpc17xx.o"
+".\objects\pin_lpc17xx.o"
+".\objects\startup_lpc17xx.o"
+".\objects\system_lpc17xx.o"
+"C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.3.0\Network\Lib\ARM\Net_CM3_L.lib"
+".\objects\net_config.o"
+--strict --scatter ".\Objects\wifi.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\wifi.map" -o .\Objects\wifi.axf
